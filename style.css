@@ -4,6 +4,38 @@ html {
 }
 
 * {
+    background: white
+    /*
     margin: 0;
     padding: 0;
+    */
+}
+
+/*drop down navigation*/
+nav{
+    display: none;
+}
+
+/*logo- fix logo cropping, turn to png*/
+.logo {
+    margin: 2rem;
+    padding: none;
+}
+
+header{
+    background: #98C0C6;
+}
+
+.name {
+    font-size: 500%;
+    margin: 2rem 1rem 0rem 1rem;
+    padding: 1rem;
+}
+
+.projects {
+    margin: auto;
+    text-align: center;
+}
+.tagline {
+    margin: 0 2rem ;
 }
