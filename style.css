@@ -32,20 +32,29 @@ header{
 }
 
 .projects {
+    background: #98C0C6 ;
     margin: auto;
     text-align: center;
-    background: #98C0C6 ;
 }
+h5.projects {
+    font-size: 16pt;
+}
+section.projects {
+    margin: 2rem;
+
+}
+
 .tagline {
     margin: 0 2rem ;
 }
 footer {
     background: #98C0C6;
     padding: 1rem;
+    text-align: center;
 }
 
 .social {
-    text-align: right;
+    text-align: center;
 }
 
 .pic {
