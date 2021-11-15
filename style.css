@@ -39,3 +39,12 @@ header{
 .tagline {
     margin: 0 2rem ;
 }
+footer {
+    background: #98C0C6;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.social {
+    text-align: right;
+}
