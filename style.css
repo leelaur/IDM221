@@ -1,6 +1,7 @@
 
 html {
     box-sizing: border-box;
+    }
 }
 
 * {
@@ -58,4 +59,10 @@ footer {
 .pic {
     position: fixed;
     z-index: -10;
+}
+
+/*collider news page*/
+.collidercontent {
+    margin: auto;
+    text-align: center;
 }
