@@ -34,18 +34,16 @@ header{
 .projects {
     background: #98C0C6 ;
     margin: auto;
+    padding-top: 0.5rem;
     text-align: center;
 }
-h5.projects {
-    font-size: 16pt;
+h5 {
+    font-size: 18pt;
 }
-section.projects {
-    margin: 2rem;
 
-}
 
 .tagline {
-    margin: 0 2rem ;
+    margin: 1rem 2rem ;
 }
 footer {
     background: #98C0C6;
