@@ -2,6 +2,9 @@
 html {
     box-sizing: border-box;
     }
+img {
+    height: auto;
+    width: 100%;
 }
 
 * {
@@ -63,6 +66,14 @@ footer {
 
 /*collider news page*/
 .collidercontent {
-    margin: auto;
-    text-align: center;
+    margin: 2rem;
+    text-align: left;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 }
