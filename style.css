@@ -25,7 +25,10 @@ img {
     font-display: swap;
 }
 
-    
+ img.menu {
+text-align: right;
+ }   
+
 * {
     /*
     margin: 0;
