@@ -36,48 +36,73 @@ font-family: 'DM Sans Regular', sans-serif;
 }
 
 
-/*drop down navigation -- FIX*/
+/*menu*/
 
-nav ul li{
-    list-style: none;
-    margin-top: 0;
-    text-align: flex;
-    font-size: 1.5rem;
+nav ul {
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+nav ul li, nav button{
+    display: inline;
+    line-height: 2rem;
+    white-space: nowrap;
+    font-size: 14pt;
+    border-radius: 1rem ;
+    margin:0 1rem;
+}
+nav button{
+    color:white;
+    text-decoration: none;
+    margin:auto;
     padding: 0;
-    line-height: 2rem;   
-   
 }
 
+nav a {
+    color:black;
+    text-decoration: none;
+}
 
-/*logo- fix logo cropping, turn to png*/
+nav a:hover {
+    color:#98C0C6;
+}
+
+/*logo*/
 .logo {
-    margin: 2rem;
-    padding: none;
+    margin-left: 2.5rem;
+    margin-top: 2.5rem;
+    padding: 0;
 }
-
-
 
 .name {
-    font-size: 500%;
-    margin: 2rem 1rem 0rem 1rem;
-    padding: 1rem;
+    font-size: 4rem;
+    margin: 1rem 0 0 2.5rem;
 }
 
 .projects {
     background: #98C0C6 ;
     margin: auto;
-    padding-top: 0.5rem;
+    padding-top: 2rem;
     text-align: center;
 }
 h5 {
-    font-size: 18pt;
+    font-size: 16pt;
+    margin: 1rem 0;
+    color:black;
 }
 
+h5 a {
+    text-decoration: none;
+    color:black;
+}
+h5 a:hover{
+    color:white;
+}
 
 .tagline {
-    margin: 2rem 1rem 1rem 1rem
-    font-size: 16pt;
+    margin: 1rem 2.5rem;
+    font-size: 14pt;
 }
+
 footer {
     background: #98C0C6;
     padding: 1rem;
