@@ -48,7 +48,6 @@ nav ul li, nav button{
     white-space: nowrap;
     font-size: 14pt;
     border-radius: 1rem ;
-    margin:0 1rem;
 }
 nav button{
     color:white;
@@ -65,7 +64,9 @@ nav a {
 nav a:hover {
     color:#98C0C6;
 }
-
+nav.menu {
+    margin: 0 1rem;
+}
 /*logo*/
 .logo {
     margin-left: 2.5rem;
@@ -75,13 +76,18 @@ nav a:hover {
 
 .name {
     font-size: 4rem;
-    margin: 1rem 0 0 2.5rem;
+    margin: 1rem 2.5rem;
 }
 
+h3.projects {
+    margin-top:0;
+    font-size: 20pt;
+    font-family: 'DM Sans Bold';
+}
 .projects {
     background: #98C0C6 ;
     margin-top: 4rem;
-    padding-top: 2rem;
+    padding-top: 1rem;
     text-align: center;
 }
 h5 {
@@ -107,6 +113,16 @@ footer {
     background: #98C0C6;
     padding: 1rem;
     text-align: center;
+    font-size: 10pt;
+}
+
+footer a {
+    text-decoration: none;
+    color:black;
+}
+
+footer a:hover {
+    color:white;
 }
 
 .social {
