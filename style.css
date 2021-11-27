@@ -25,23 +25,56 @@ img {
     font-display: swap;
 }
 
- img.menu {
-text-align: right;
- }   
 
 * {
     /*
     margin: 0;
-    padding: 0;
     */
+    padding: 0;
+    
 font-family: 'DM Sans Regular', sans-serif;
 }
 
 
 /*drop down navigation*/
-nav{
-    display: none;
+nav {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+
 }
+img.menu {
+    position: absolute;
+    max-width: 30%;
+    height: 20%;
+    padding: 0;
+    margin-left: 6rem;
+    margin-top: -0.5rem;
+
+}
+a.menu:active {
+    display: block;
+}
+nav ul li{
+    background-color: white;
+    list-style: none;
+    margin-top: 0rem;
+    text-align: center;
+    font-size: 1.5rem;
+    padding:0;
+    line-height: 2rem;   
+    display: none;
+   
+}
+
+a.menu {
+    display: block;
+    color:white;
+ 
+}
+
 
 /*logo- fix logo cropping, turn to png*/
 .logo {
@@ -51,6 +84,7 @@ nav{
 
 header{
     background: #98C0C6;
+    z-index: 100
 }
 
 .name {
