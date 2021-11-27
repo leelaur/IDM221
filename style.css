@@ -114,34 +114,42 @@ footer a:hover {
 /*project thumbnaoils*/
 
 h3.projects {
-    margin:  4rem auto 2rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
     padding-top: 2.5rem;
     font-size: 20pt;
     font-family: 'DM Sans Bold';
 }
-.projects {
+div.projects {
     background: #98C0C6 ;
     text-align: center;
+    height:930px;
 }
 h5 {
     font-size: 16pt;
-    color:white;
-    position:absolute;
-   
+    color:white; 
+    margin-bottom: 1.5rem; 
 }
-
+img.projects {
+    position:absolute;
+    text-align: center;
+}
 .projects section {
-    margin:2rem;
+    margin: 2rem 0 2rem;
     position:relative;
+    text-align: center;
+
 }
 
 .projects h5 a {
     text-decoration: none;
-    color:white;
+    color:black;
+    text-align: center;
+    bottom: 50%;
 
 }
 h5 a:hover{
-    color:#98C0C6;
+    color:white;
 }
 
 
