@@ -54,6 +54,7 @@ nav button{
     text-decoration: none;
     margin:auto;
     padding: 0;
+    border: none;
 }
 
 nav a {
