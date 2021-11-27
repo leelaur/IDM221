@@ -27,10 +27,10 @@ img {
 
 
 * {
-    /*
-    margin: 0;
-    */
+    max-width: 375px;
+    margin: auto;
     padding: 0;
+
     
 font-family: 'DM Sans Regular', sans-serif;
 }
@@ -44,27 +44,27 @@ nav ul {
 nav ul li, nav button{
     display: inline;
     height: 2.5rem;
-    width: 6rem;
+    width: 5rem;
     white-space: nowrap;
-    font-size: 14pt;
-    border-radius: 1rem ;
+    font-size: 12pt;
+    border-radius: 3rem;
 }
-nav button{
-    color:white;
+nav button {
     text-decoration: none;
-    margin:auto;
-    padding: 0;
+    margin: 0 auto;
     border: none;
+    background-color: #0000000
 }
 
 nav a {
-    color:black;
+    color: black;
     text-decoration: none;
 }
 
 nav a:hover {
-    color:#98C0C6;
+    color: #98C0C6;
 }
+
 nav.menu {
     margin: 0 1rem;
 }
@@ -80,30 +80,6 @@ nav.menu {
     margin: 1rem 2.5rem;
 }
 
-h3.projects {
-    margin-top:0;
-    font-size: 20pt;
-    font-family: 'DM Sans Bold';
-}
-.projects {
-    background: #98C0C6 ;
-    margin-top: 4rem;
-    padding-top: 1rem;
-    text-align: center;
-}
-h5 {
-    font-size: 16pt;
-    margin: 1rem 0;
-    color:black;
-}
-
-h5 a {
-    text-decoration: none;
-    color:black;
-}
-h5 a:hover{
-    color:white;
-}
 
 .tagline {
     margin: 1rem 2.5rem;
@@ -115,6 +91,7 @@ footer {
     padding: 1rem;
     text-align: center;
     font-size: 10pt;
+    line-height: 2rem;
 }
 
 footer a {
@@ -134,6 +111,39 @@ footer a:hover {
     position: fixed;
     z-index: -10;
 }
+/*project thumbnaoils*/
+.thumb {
+    position: relative;
+    margin: 2rem 0;
+}
+
+h3.projects {
+    margin-top:0;
+    font-size: 20pt;
+    font-family: 'DM Sans Bold';
+}
+.projects {
+    background: #98C0C6 ;
+    text-align: center;
+}
+h5 {
+    font-size: 16pt;
+    color:black;
+    position:absolute;
+    text-align: center;
+    z-index: 20;
+    margin: 2rem 1rem;
+}
+
+h5 a {
+    text-decoration: none;
+    color:black;
+}
+h5 a:hover{
+    color:white;
+}
+
+
 
 /*collider news page*/
 .collidercontent {
