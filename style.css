@@ -166,4 +166,18 @@ h5 a:hover{
     margin-right: auto;
     width: 50%;
 }
+
+/*Excel CPR*/
+.excelcprtitle {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.excelcprtask{
+    text-align: center;
+
+}
+h4 {
+    margin: .75rem;
+    font-family: 'DMSans-Bold', sans-serif;
 }
