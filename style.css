@@ -112,13 +112,10 @@ footer a:hover {
     z-index: -10;
 }
 /*project thumbnaoils*/
-.thumb {
-    position: relative;
-    margin: 2rem 0;
-}
 
 h3.projects {
-    margin-top:0;
+    margin:  4rem auto 2rem;
+    padding-top: 2.5rem;
     font-size: 20pt;
     font-family: 'DM Sans Bold';
 }
@@ -128,19 +125,23 @@ h3.projects {
 }
 h5 {
     font-size: 16pt;
-    color:black;
+    color:white;
     position:absolute;
-    text-align: center;
-    z-index: 20;
-    margin: 2rem 1rem;
+   
 }
 
-h5 a {
+.projects section {
+    margin:2rem;
+    position:relative;
+}
+
+.projects h5 a {
     text-decoration: none;
-    color:black;
+    color:white;
+
 }
 h5 a:hover{
-    color:white;
+    color:#98C0C6;
 }
 
 
