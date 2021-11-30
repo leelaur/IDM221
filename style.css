@@ -29,7 +29,7 @@ img {
 * {
     max-width: 375px;
     margin: auto;
-    padding: 0;
+    padding:0;
 
     
 font-family: 'DM Sans Regular', sans-serif;
@@ -37,7 +37,10 @@ font-family: 'DM Sans Regular', sans-serif;
 
 
 /*menu*/
-
+nav {
+    display: flex;
+    width: 100%;
+}
 nav ul {
     margin: 1.5rem;
     text-align: left;
@@ -80,22 +83,42 @@ nav.menu {
 }
 
 
+
 /*logo*/
 .logo {
-    margin-left: 2.5rem;
-    margin-top: 2.5rem;
-    padding: 0;
+    padding: 2rem 0 0 2rem;
+    margin: 0;
 }
 
 .name {
     font-size: 4rem;
-    margin: 1rem 2.5rem;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+    margin-bottom: 0;
 }
 
 
 .tagline {
-    margin: 1rem 2.5rem;
+    padding: 1rem 2rem;
     font-size: 14pt;
+    line-height: 1.6;
+ 
+}
+/*hamburger menu icon*/
+img.hamburger {
+    height: 4rem;
+    width: 4rem;
+    float:right;
+    padding: 2rem 2rem 0 0;
+}
+
+/*arrow down*/
+img.downarrow {
+    height: 4rem;
+    width: 4rem;
+    text-align: center;
+    display: block;
+    padding-top: 2rem;
 }
 
 /*footer*/
@@ -148,7 +171,7 @@ img.projects {
     text-align: center;
 }
 .projects section {
-    margin: 2rem 0 2rem;
+    margin: 2rem;
     position:relative;
     text-align: center;
 
@@ -173,7 +196,7 @@ h5 a:hover{
 }
 
 .content {
-    margin: 2rem;
+    margin: 2rem 1rem;
     text-align: left;
 }
 
