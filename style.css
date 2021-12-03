@@ -42,6 +42,7 @@ nav ul {
     text-align: center;
     list-style-type: none;
     background-color: #98C0C6;
+    padding-bottom: 1rem;
     width: 375px;
     height: 329.6px;
 }
@@ -145,16 +146,18 @@ footer a:hover {
     text-align: center;
 }
 
-.pic {
+img.clouds {
     position: fixed;
     z-index: -10;
 }
+
+
 /*project thumbnaoils*/
 
 h3.projects {
-    margin-top: 2rem;
+    margin-top: 5rem;
     margin-bottom: 1rem;
-
+    padding-top:2rem;
     font-size: 20pt;
     font-family: 'DM Sans Bold';
 }
@@ -190,7 +193,6 @@ h5 a:hover{
     color:white;
 }
 
-}
 
 /*All Pages*/
 .pages {
