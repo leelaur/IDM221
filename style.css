@@ -37,50 +37,44 @@ font-family: 'DM Sans Regular', sans-serif;
 
 
 /*menu*/
-nav {
-    display: flex;
-    width: 100%;
-}
+
 nav ul {
-    margin: 1.5rem;
-    text-align: left;
+    text-align: center;
+    list-style-type: none;
+    background-color: #98C0C6;
+    width: 375px;
+    height: 329.6px;
+}
+
+li #resume {
+    margin-bottom: 2rem;
+}
+
+nav #menu {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 2rem;
+    text-transform: uppercase;
+    font-family: 'DM Sans Bold', sans-serif;
+    font-size: 18pt;
 }
 
 nav ul li {
-    margin: 0 1rem;
-   
-}
-
-nav ul li, nav button{
-    display: inline;
-    height: 2.5rem;
-    width: 5.5rem;
-    white-space: nowrap;
-    font-size: 12pt;
-    border-radius: 2rem;
-}
-nav button {
+    padding: 1rem;
+    font-size: 16pt;
+    margin: 2rem;
     text-decoration: none;
-    margin: 0 auto;
-    border: none;
-    background-color: #fff;
-
-    
 }
 
 nav a {
-    color: black;
     text-decoration: none;
-    text-align:center;
+    color: black;
 }
 
 nav a:hover {
     color: #98C0C6;
 }
 
-nav.menu {
-    margin: 0 1rem;
-}
 
 
 
@@ -97,6 +91,21 @@ nav.menu {
     margin-bottom: 0;
 }
 
+/*anchor jump to "my projects" in home*/
+.jump {
+    text-align: center;
+    padding-top: 2rem;
+    font-family: 'DM Sans Bold', sans-serif;
+}
+/*arrow down*/
+img.downarrow {
+    height: 4rem;
+    width: 4rem;
+    text-align: center;
+    display: block;
+    padding-top: 1rem;
+
+}
 
 .tagline {
     padding: 1rem 2rem;
@@ -112,14 +121,7 @@ img.hamburger {
     padding: 2rem 2rem 0 0;
 }
 
-/*arrow down*/
-img.downarrow {
-    height: 4rem;
-    width: 4rem;
-    text-align: center;
-    display: block;
-    padding-top: 2rem;
-}
+
 
 /*footer*/
 footer {
@@ -150,9 +152,9 @@ footer a:hover {
 /*project thumbnaoils*/
 
 h3.projects {
-    margin-top: 4rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
-    padding-top: 2.5rem;
+
     font-size: 20pt;
     font-family: 'DM Sans Bold';
 }
