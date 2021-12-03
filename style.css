@@ -126,11 +126,11 @@ img.hamburger {
 
 /*footer*/
 footer {
-    background: #98C0C6;
     padding: 1rem;
     text-align: center;
     font-size: 10pt;
     line-height: 2rem;
+    background-color: rgba(256,256, 265, 0.25)
 }
 
 footer a {
@@ -160,11 +160,12 @@ h3.projects {
     padding-top:2rem;
     font-size: 20pt;
     font-family: 'DM Sans Bold';
+    text-transform: uppercase;
 }
 div.projects {
     background: #98C0C6 ;
     text-align: center;
-    height:930px;
+    height:875px;
 }
 h5 {
     font-size: 16pt;
