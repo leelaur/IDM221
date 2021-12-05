@@ -44,7 +44,7 @@ nav ul {
     background-color: #98C0C6;
     padding-bottom: 1rem;
     width: 375px;
-    height: 329.6px;
+    height: 350px;
 }
 
 li #resume {
@@ -63,7 +63,7 @@ nav #menu {
 nav ul li {
     padding: 1rem;
     font-size: 16pt;
-    margin: 2rem;
+    margin: 1rem;
     text-decoration: none;
 }
 
@@ -105,6 +105,7 @@ img.downarrow {
     text-align: center;
     display: block;
     padding-top: 1rem;
+    padding-bottom: 2rem;
 
 }
 
