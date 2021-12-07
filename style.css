@@ -199,12 +199,36 @@ h5 a:hover{
 
 /*All Pages*/
 .pages {
-    background-color: #98C0C6;
+    background-color: white;
 }
 
 .content {
     padding: 1rem 2rem;
     margin-top: 2rem;
+    margin-bottom: 5rem;
     text-align: left;
+    background-color: #98C0C6;
 }
 
+.content h1 {
+   text-align: center;
+}
+ 
+.content section {
+    margin: 2rem 0;
+}
+
+.content li {
+    margin: 1rem 0 0 2rem
+}
+
+.content h4 {
+    font-family: 'DM Sans Bold';
+    font-size: 18pt;
+    margin-bottom: 1rem; 
+}
+
+.content p, .content li{
+    font-size 14pt;
+    line-height: 1.7rem;
+}
