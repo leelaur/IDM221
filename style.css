@@ -36,6 +36,7 @@ font-family: 'DM Sans Regular', sans-serif;
 }
 
 
+
 /*menu*/
 
 nav ul {
@@ -140,7 +141,7 @@ footer a {
 }
 
 footer a:hover {
-    color:white;
+    color:#98C0C6;
 }
 
 .social {
@@ -168,7 +169,7 @@ div.projects {
     text-align: center;
     height:875px;
 }
-h5 {
+.projects section h5 {
     font-size: 16pt;
     color:white; 
     margin-bottom: 1.5rem; 
@@ -202,7 +203,8 @@ h5 a:hover{
 }
 
 .content {
-    margin: 2rem 1rem;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
     text-align: left;
 }
 
