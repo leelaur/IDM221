@@ -8,7 +8,7 @@ img {
 
 * {
     font-family: 'DM Sans Regular', sans-serif;
-    max-width: 375px;
+    max-width: 375px; /*mobile screen size*/
     margin: auto;
     padding:0;
 }
@@ -35,22 +35,24 @@ img {
 
 
 
-/*ALL PAGES - except home page*/
+/*ALL PAGES - EXCEPT home page*/
+/* .pages=body */
 .pages {
     background-color: white;
 }
 
+/* excludes header*/
 .content {
-    padding: 2rem;
-    margin: 2rem 0 5rem;
-    text-align: left;
     background-color: #98C0C6;
+    margin: 2rem 0 5rem;
+    padding: 2rem;
+    text-align: left;
 }
 
 .content h1 {
-   text-align: center;
     font-family: 'DM Sans Bold';
     margin-top:0;
+    text-align: center;
 }
 
 .content h2 {
@@ -58,17 +60,25 @@ img {
     padding:0.5rem;
     padding-right: 1rem;
     text-align: center;
-
 }
 
+/*fontsizes: h2 (-), h3 (18pt), h4 (16pt), h5 (15pt), p (14pt)*/
 .content h3 {
+    font-size: 18pt;
     text-align: center;
+}
+
+.content h4 {
+    font-family: 'DM Sans Bold';
     font-size: 16pt;
+    margin-bottom: 1rem; 
 }
 
 .content h5{
     font-size: 15pt;
 }
+
+/* spacing between paragraphs*/
 .content section {
     margin: 2rem 0;
 }
@@ -77,12 +87,7 @@ img {
     margin: 1rem 0 0 2rem
 }
 
-.content h4 {
-    font-family: 'DM Sans Bold';
-    font-size: 18pt;
-    margin-bottom: 1rem; 
-}
-
+/*controls line-height*/
 .content p, .content li{
     font-size: 14pt;
     line-height: 1.7rem;
@@ -92,9 +97,10 @@ img {
     margin: 1rem 0;
 }
 
+/*image caption*/
 figcaption {
-    text-align: center;
     margin: 0.5rem 0;
+    text-align: center;
 }
 
 .images {
@@ -105,6 +111,7 @@ figcaption {
 
 
 /*MENU*/
+/*menu list*/
     nav ul {
         text-align: center;
         list-style-type: none;
@@ -118,6 +125,7 @@ figcaption {
         margin-bottom: 2rem;
     }
 
+    /*"MENU" text*/
     nav #menu {
         margin-bottom: 0;
         padding-bottom: 0;
@@ -183,6 +191,7 @@ footer a:hover {
     text-align: center;
 }
 
+/*background for everything?*/
 img.clouds {
     position: fixed;
     z-index: -10;
@@ -197,6 +206,7 @@ p.contact {
 
 
 /*HOME PAGE*/
+    /*Lauren Lee*/
     .name {
         font-family: 'DM Sans Bold', sans-serif;
         font-size: 4rem;
@@ -205,6 +215,7 @@ p.contact {
         margin-bottom: 0;
     }
     
+    /*small blurb about myslef*/
     .tagline {
         padding: 1rem 2rem;
         font-size: 14pt;
@@ -228,7 +239,7 @@ p.contact {
         padding-top: 1rem;
         padding-bottom: 2rem;
     }
-    /*project thumbnails*/
+    /*project thumbnail images*/
     h3.projects {
         margin-top: 5rem;
         margin-bottom: 1rem;
@@ -237,11 +248,14 @@ p.contact {
         font-family: 'DM Sans Bold';
         text-transform: uppercase;
     }
+
+    /*blue background behind projects*/
     div.projects {
         background: #98C0C6 ;
         text-align: center;
         height:910px;
     }
+
     .projects section h5 {
         font-size: 16pt;
         color:white; 
@@ -257,6 +271,7 @@ p.contact {
         text-align: center;
     }
 
+    /*link to page*/
     .projects h5 a {
         text-decoration: none;
         color:black;
@@ -270,6 +285,7 @@ p.contact {
 /*End HOME PAGE*/
 
 /*RESUME PAGE*/
+    /*link to off page resume.pdf*/
     button.resume  {
         border-radius: 2rem;
         background-color: #fff;
@@ -281,19 +297,15 @@ p.contact {
         margin: 0 auto;
     }
 
-
+    /*decoration*/
     button.resume a {
-        text-decoration: none;
         display: inline-block;
         color: #000;
+        text-decoration: none;
     }
 
     button.resume:hover {
         background-color: #bdd7db 
-    }
-
-    h5.resume {
-        font-size: 50pt;
     }
 /*End RESUME PAGE*/
 
@@ -307,6 +319,7 @@ p.contact {
 /*End ABOUT PAGE*/
 
 /*COLLIDER PAGE*/
+    /*making large image smaller*/
     #mobileimage{
         height: 500px;
         width: auto;
