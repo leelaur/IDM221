@@ -41,9 +41,8 @@ img {
 }
 
 .content {
-    padding: 1rem 2rem;
-    margin-top: 2rem;
-    margin-bottom: 5rem;
+    padding: 2rem;
+    margin: 2rem 0 5rem;
     text-align: left;
     background-color: #98C0C6;
 }
@@ -51,6 +50,7 @@ img {
 .content h1 {
    text-align: center;
     font-family: 'DM Sans Bold';
+    margin-top:0;
 }
 
 .content h2 {
@@ -187,6 +187,10 @@ img.clouds {
     position: fixed;
     z-index: -10;
 }
+
+p.contact {
+    font-family: 'DM Sans Bold';
+}
 /*End FOOTER*/
 
 
@@ -236,7 +240,7 @@ img.clouds {
     div.projects {
         background: #98C0C6 ;
         text-align: center;
-        height:930px;
+        height:910px;
     }
     .projects section h5 {
         font-size: 16pt;
@@ -273,8 +277,10 @@ img.clouds {
         padding: 15px 32px;
         text-align: center;
         font-size: 1rem;
-        margin: 0 2rem 2rem;
+        display:block;
+        margin: 0 auto;
     }
+
 
     button.resume a {
         text-decoration: none;
