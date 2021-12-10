@@ -6,6 +6,13 @@ img {
     width: 100%;
 }
 
+* {
+    font-family: 'DM Sans Regular', sans-serif;
+    max-width: 375px;
+    margin: auto;
+    padding:0;
+}
+
 /*fonts*/
 @font-face {
     font-family: 'DM Sans Regular';
@@ -26,179 +33,9 @@ img {
 }
 
 
-* {
-    max-width: 375px;
-    margin: auto;
-    padding:0;
-
-    
-font-family: 'DM Sans Regular', sans-serif;
-}
 
 
-
-/*menu*/
-
-nav ul {
-    text-align: center;
-    list-style-type: none;
-    background-color: #98C0C6;
-    padding-bottom: 1rem;
-    width: 375px;
-    height: 350px;
-}
-
-li #resume {
-    margin-bottom: 2rem;
-}
-
-nav #menu {
-    margin-bottom: 0;
-    padding-bottom: 0;
-    padding-top: 2rem;
-    text-transform: uppercase;
-    font-family: 'DM Sans Bold', sans-serif;
-    font-size: 18pt;
-}
-
-nav ul li {
-    padding: 1rem;
-    font-size: 16pt;
-    margin: 1rem;
-    text-decoration: none;
-}
-
-nav a {
-    text-decoration: none;
-    color: black;
-}
-
-nav a:hover {
-    color: #fff;
-}
-
-
-
-
-/*logo*/
-.logo {
-    padding: 2rem 0 0 2rem;
-    margin: 0;
-}
-
-.name {
-    font-family: 'DM Sans Bold', sans-serif;
-    font-size: 4rem;
-    padding: 1rem 2rem;
-    margin-top: 2rem;
-    margin-bottom: 0;
-}
-
-/*anchor jump to "my projects" in home*/
-.jump {
-    text-align: center;
-    padding-top: 2rem;
-    font-family: 'DM Sans Bold', sans-serif;
-}
-/*arrow down*/
-img.downarrow {
-    height: 4rem;
-    width: 4rem;
-    text-align: center;
-    display: block;
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-
-}
-
-.tagline {
-    padding: 1rem 2rem;
-    font-size: 14pt;
-    line-height: 1.6;
- 
-}
-/*hamburger menu icon*/
-img.hamburger {
-    height: 4rem;
-    width: 4rem;
-    float:right;
-    padding: 2rem 2rem 0 0;
-}
-
-
-
-/*footer*/
-footer {
-    padding: 1rem;
-    text-align: center;
-    font-size: 10pt;
-    line-height: 2rem;
-    background-color: rgba(255, 255, 255, 0.25)
-}
-
-footer a {
-    text-decoration: none;
-    color:black;
-}
-
-footer a:hover {
-    color:#98C0C6;
-}
-
-.social {
-    text-align: center;
-}
-
-img.clouds {
-    position: fixed;
-    z-index: -10;
-}
-
-
-/*project thumbnaoils*/
-
-h3.projects {
-    margin-top: 5rem;
-    margin-bottom: 1rem;
-    padding-top:2rem;
-    font-size: 20pt;
-    font-family: 'DM Sans Bold';
-    text-transform: uppercase;
-}
-div.projects {
-    background: #98C0C6 ;
-    text-align: center;
-    height:930px;
-}
-.projects section h5 {
-    font-size: 16pt;
-    color:white; 
-    margin-bottom: 1.5rem; 
-}
-img.projects {
-    position:absolute;
-    text-align: center;
-}
-.projects section {
-    margin: 2rem;
-    position:relative;
-    text-align: center;
-
-}
-
-.projects h5 a {
-    text-decoration: none;
-    color:black;
-    text-align: center;
-    bottom: 50%;
-
-}
-h5 a:hover{
-    color:white;
-}
-
-
-/*All Pages*/
+/*ALL PAGES - except home page*/
 .pages {
     background-color: white;
 }
@@ -230,7 +67,7 @@ h5 a:hover{
 }
 
 .content h5{
-    font-size: 14pt;
+    font-size: 15pt;
 }
 .content section {
     margin: 2rem 0;
@@ -264,28 +101,209 @@ figcaption {
     margin: 0.5rem 0;
 }
 
-/*resume*/
-button.resume  {
-    border-radius: 2rem;
-    background-color: #fff;
-    border-style: none;
-    padding: 15px 32px;
+
+
+
+/*MENU*/
+    nav ul {
+        text-align: center;
+        list-style-type: none;
+        background-color: #98C0C6;
+        padding-bottom: 1rem;
+        width: 375px;
+        height: 350px;
+    }
+
+    li #resume {
+        margin-bottom: 2rem;
+    }
+
+    nav #menu {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        padding-top: 2rem;
+        text-transform: uppercase;
+        font-family: 'DM Sans Bold', sans-serif;
+        font-size: 18pt;
+    }
+
+    nav ul li {
+        padding: 1rem;
+        font-size: 16pt;
+        margin: 1rem;
+        text-decoration: none;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: black;
+    }
+
+    nav a:hover {
+        color: #fff;
+    }
+
+    /*hamburger menu icon*/
+    img.hamburger {
+        height: 4rem;
+        width: 4rem;
+        float:right;
+        padding: 2rem 2rem 0 0;
+    }
+/*End MENU*/
+
+
+
+
+/*logo*/
+.logo {
+    padding: 2rem 0 0 2rem;
+    margin: 0;
+}
+
+/*FOOTER*/
+footer {
+    padding: 1rem;
     text-align: center;
-    font-size: 1rem;
-    margin: 2rem;
-}
+    font-size: 10pt;
+    line-height: 2rem;
+    background-color: rgba(255, 255, 255, 0.25)
+}  
 
-button.resume a {
+footer a {
     text-decoration: none;
-    display: inline-block;
-    color: #000;
+    color:black;
 }
 
-/*about*/
-
-/*collider*/
-#mobileimage{
-    height: 500px;
-    width: auto;
-    display: block;   
+footer a:hover {
+    color:#487c84;
 }
+
+.social {
+    text-align: center;
+}
+
+img.clouds {
+    position: fixed;
+    z-index: -10;
+}
+/*End FOOTER*/
+
+
+
+
+/*HOME PAGE*/
+    .name {
+        font-family: 'DM Sans Bold', sans-serif;
+        font-size: 4rem;
+        padding: 1rem 2rem;
+        margin-top: 2rem;
+        margin-bottom: 0;
+    }
+    
+    .tagline {
+        padding: 1rem 2rem;
+        font-size: 14pt;
+        line-height: 1.6;
+     
+    }
+    
+    /*anchor jump to "my projects" in home*/
+    .jump {
+        text-align: center;
+        padding-top: 2rem;
+        font-family: 'DM Sans Bold', sans-serif;
+    }
+
+    /*arrow down*/
+    img.downarrow {
+        height: 4rem;
+        width: 4rem;
+        text-align: center;
+        display: block;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+    /*project thumbnails*/
+    h3.projects {
+        margin-top: 5rem;
+        margin-bottom: 1rem;
+        padding-top:2rem;
+        font-size: 20pt;
+        font-family: 'DM Sans Bold';
+        text-transform: uppercase;
+    }
+    div.projects {
+        background: #98C0C6 ;
+        text-align: center;
+        height:930px;
+    }
+    .projects section h5 {
+        font-size: 16pt;
+        color:white; 
+        margin-bottom: 1.5rem; 
+    }
+    img.projects {
+        position:absolute;
+        text-align: center;
+    }
+    .projects section {
+        margin: 2rem;
+        position:relative;
+        text-align: center;
+    }
+
+    .projects h5 a {
+        text-decoration: none;
+        color:black;
+        text-align: center;
+        bottom: 50%;
+    }
+    h5 a:hover{
+        color:white;
+    }
+
+/*End HOME PAGE*/
+
+/*RESUME PAGE*/
+    button.resume  {
+        border-radius: 2rem;
+        background-color: #fff;
+        border-style: none;
+        padding: 15px 32px;
+        text-align: center;
+        font-size: 1rem;
+        margin: 0 2rem 2rem;
+    }
+
+    button.resume a {
+        text-decoration: none;
+        display: inline-block;
+        color: #000;
+    }
+
+    button.resume:hover {
+        background-color: #bdd7db 
+    }
+
+    h5.resume {
+        font-size: 50pt;
+    }
+/*End RESUME PAGE*/
+
+
+
+
+/*ABOUT PAGE*/
+    .about section{
+        margin: 1rem 0;
+    }
+/*End ABOUT PAGE*/
+
+/*COLLIDER PAGE*/
+    #mobileimage{
+        height: 500px;
+        width: auto;
+        display: block;   
+    }
+/*End COLLIDER PAGE*/
