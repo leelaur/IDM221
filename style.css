@@ -233,7 +233,7 @@ h5 a:hover{
     font-size: 14pt;
 }
 .content section {
-    margin: 3rem 0;
+    margin: 2rem 0;
 }
 
 .content li {
@@ -260,6 +260,10 @@ figcaption {
     margin: 0.5rem 0;
 }
 
+.images {
+    margin: 0.5rem 0;
+}
+
 /*resume*/
 button.resume  {
     border-radius: 2rem;
@@ -279,3 +283,9 @@ button.resume a {
 
 /*about*/
 
+/*collider*/
+#mobileimage{
+    height: 500px;
+    width: auto;
+    display: block;   
+}
