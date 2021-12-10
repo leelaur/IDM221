@@ -113,9 +113,9 @@ figcaption {
 /*MENU*/
 /*menu list*/
     nav ul {
+        background-color: #98C0C6;
         text-align: center;
         list-style-type: none;
-        background-color: #98C0C6;
         padding-bottom: 1rem;
         width: 375px;
         height: 350px;
